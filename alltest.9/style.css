@@ -1,0 +1,318 @@
+*{
+    
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eafaf1;
+}
+/*----------------------------------------header------------------------------------------ */
+li{
+    list-style: none;
+}
+header{
+    margin: auto;
+    max-width: 900px;
+    align-items: center;
+    color: #00ad6a;
+    padding: 2rem 0rem ;
+    display: flex;
+    justify-content: space-between;
+}
+.headlists{
+    font-size: .7rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    gap: 1.5rem;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    letter-spacing: -4px;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.headlists a:visited{
+    color: #00ad6a;
+}
+.signup{
+    
+    position: relative;
+    padding: .3rem 1rem;
+    border: 1.5px solid  #00ad6a;
+}
+.headli:hover a{
+    color: #080c16;
+}
+.headli:last-child:hover a{
+    color: #00ad6a;
+    top: -5px;
+    right: -5px;
+    box-shadow: -5px 5px #00ad6a;
+}
+/*----------------------------------------main------------------------------------------ */
+                        /* -----------mainfirstpt-------------- */
+.mainFirstPt{
+    margin: auto;
+    text-align: center;
+    max-width: 900px;
+}
+.mainhead h1{
+    padding-bottom: 1rem;
+    line-height: 3rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.mainoffer{
+    align-items: center;
+    margin-top: 3rem;
+    display: flex;
+}
+.info{
+    padding-right: 3rem;
+    width: 32%;
+    text-align: start;
+}
+.info p{
+    margin-bottom:.7rem ;
+    font-weight: 600;
+    color: #00ad6a;
+}
+.info p:last-of-type{
+    color: #8e918f;
+}
+.info li{
+    padding-bottom: .2rem;
+    font-size: 0.8rem;
+    /* list-style:square; */
+}
+.recommended{
+    width: 36%;
+    border-radius: .3rem;
+    border: 1px solid #00ad6a;
+    background-color: white;
+}
+.recommended .title{
+    padding: .2rem;
+    color: white;
+    font-size: .8rem;
+    background-color: #00ad6a;
+    text-align: center;
+}
+.recommended h1{
+    color: #00ad6a;
+    margin:1.5rem 3rem;
+    font-size: 2.5rem;
+}
+.recommended p,.complex p{
+    color: #8e918f;
+}
+
+.recommended a,.complex a{
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    margin: 1rem;
+    padding: .5rem 1.5rem;
+    background-color: #1fe374;
+    color:#575a59;
+}
+.recommended ul,.info ul,.complex ul{
+    font-size: .8rem;
+    color: #8e918f;
+    padding: 1rem;
+    padding-top: 0.4rem;
+    text-align: start;
+}
+.recommended li,.complex li{
+    margin-bottom: 1rem;
+}
+.complex{
+    width: 32%;
+    background-color: white;
+    border: 1px solid #dae9e2;
+}
+.complex .title{
+    padding: 1rem;
+    font-size: .8rem;
+    color: #8e918f;
+    background-color:#e8f5ef;
+}
+.complex h1{
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: 100;
+    color:#00ad6a;
+}
+.recommended p:last-of-type,.complex p:last-of-type {
+    padding-top: .5rem;
+    font-size: .8rem;
+    color: #323332;
+}
+.complex:hover a,.recommended:hover a{
+    color: #323332;
+    transform: scale(1.1);
+}
+.mainfoot{
+    margin: 3.5rem;
+}
+.cirl{
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    background-color: #8e918f;
+    width: 60px;
+    height: 60px;
+}
+.mainfoot p:last-of-type{
+    margin: 1rem;
+    font-weight: bold;
+    font-size: .7rem;
+    color:#00ad6a;
+}
+                              /* -----------------mainsecpt----------------------- */
+.mainSecPt{
+
+    background-color: white;
+}
+.mainsecallcont{
+    padding: 5rem 0;
+    margin: auto;
+    max-width:  900px;
+}
+.mainsecallcont h1{
+    font-weight: 900;
+    margin-bottom:1.3rem ; 
+}
+.mainsupcont{
+    gap: 1rem;
+    row-gap: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.mainsecptcont h2{
+    margin-bottom: .3rem;
+    font-weight: 900;
+    font-size: .8rem;
+}
+.mainsecptcont p{
+    font-size: .8rem;
+    color: #575a59;
+}
+/* ------------------------------------------------footer------------------------- */
+footer{
+    color:#1fe374;
+    background-color: #080c16;
+}
+.footercont{
+    justify-content: space-between;
+    margin: auto;
+    max-width: 900px;
+    padding: 5rem 0;
+    display: flex;
+}
+.lastlogo{
+    color: #05c47b;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.footercontfirstpt a{
+    position: relative;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #080c16;
+    padding: .7rem 1.3rem;
+    background-color: #05c47b;
+}
+.footercontsecpt{
+    display: flex;
+    gap: 5.5rem;
+
+}
+.footercontsecpt ul li{
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.footercontsecpt ul li:first-of-type{
+    color: white;
+    font-weight: bold;
+}
+.copy{
+    font-size: .7rem;
+    color: #999b9a;
+    margin: auto;
+    max-width: 900px;
+    padding-bottom: 1rem;
+}
+.footercontsecpt ul li:hover{
+    color: white;
+}
+.footercontfirstpt a:hover{
+    top: -4px;
+    right: -4px;
+    box-shadow: -4px 4px #717472;    
+}
+@media (max-width:950px){
+    .mainhead{
+        text-align: start;
+    }
+    .mainoffer{
+        max-width: 100%;
+        display: block;
+    }
+    .mainFirstPt{
+        width: 100%;
+    }
+    body{
+        font-size: 30px;
+    }
+    .mainoffer section{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .footercont{
+        display: block;
+        text-align: center;
+    }
+    .footercontfirstpt{
+
+        margin-bottom: 4rem;
+    }
+    .footercontsecpt{
+        text-align: start;
+        font-size: 1.1rem;
+        justify-content: space-between;
+    }
+    .footercontsecpt ul{
+        width: 33%;
+    }
+    .footercontfirstpt a{
+        padding: 1rem 1.5rem;
+        font-size: 1.1rem;
+    }
+    .lastlogo{
+        font-size: 4rem;
+    }
+    header , .mainSecPt,.mainFirstPt,footer{
+        padding: 0 1rem;
+    }
+}
+@media (max-width:700px){
+    .mainsupcont{
+        display: block;
+    }
+    .mainsecptcont{
+        margin-bottom: 3rem;
+    }
+    .mainsecptcont h2{
+        font-size: 1.4rem;
+    }
+    .mainsecptcont p{
+        font-size: 1.2rem;
+    }
+}
